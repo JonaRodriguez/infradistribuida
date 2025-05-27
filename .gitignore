@@ -1,0 +1,47 @@
+*.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+.terraformrc
+.terraform.lock.hcl
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.log
+*.backup
+*.swp
+*.bak
+*.orig
+*.rej
+*.diff
+*.patch
+
+# AWS
+.terraform/modules/
+.terraform/plugins/
+.terraform/providers/
+
+# GCP
+.terraform/modules/
+.terraform/plugins/
+.terraform/providers/
+
+# Azure
+.terraform/modules/
+.terraform/plugins/
+.terraform/providers/
+
+# Varios
+secrets.tfvars
+credentials.tfvars
+keys.tfvars
+config.tfvars
+.DS_Store
+Thumbs.db
